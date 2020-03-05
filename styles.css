@@ -87,7 +87,8 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
-.tag {
+.tag,
+.experience {
   background-color: #ffc787;
   color: #807973;
   padding: 10px;
@@ -96,10 +97,15 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 
+.experience {
+  margin-top: 150px;
+}
+
 .location {
   background-color: #ffc787;
   color: #807973;
 }
+
 
 .card {
   margin: 30px;
